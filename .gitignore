@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+*.log
+Backend/uploads/*
+!Backend/uploads/.gitkeep
+Backend/google_credentials.json
+*.pem
+.DS_Store

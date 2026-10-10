@@ -1,0 +1,15 @@
+{
+  "name": "nexahire",
+  "version": "1.0.0",
+  "private": true,
+  "description": "NexaHire - AI interview platform (React frontend + Express/MySQL backend, deployed as one service)",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "install:all": "npm --prefix Backend install && npm --prefix Frontend install",
+    "build": "npm --prefix Frontend run build",
+    "start": "npm --prefix Backend start",
+    "dev:backend": "npm --prefix Backend run dev",
+    "dev:frontend": "npm --prefix Frontend run dev",
+    "postinstall": "npm run install:all"
+  }
+}
